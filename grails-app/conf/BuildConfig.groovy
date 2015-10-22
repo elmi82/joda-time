@@ -20,6 +20,8 @@ grails.project.dependency.resolution = {
 	int grailsMajorVersion = grailsVersion.find(/^\d+/).toInteger()
 
 	dependencies {
+		compile 'joda-time:joda-time:2.8.2'
+		
 		test("org.hamcrest:hamcrest-all:1.1") {
 			export = false
 		}

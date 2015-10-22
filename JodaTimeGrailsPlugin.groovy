@@ -20,7 +20,7 @@ import grails.plugin.jodatime.converters.JodaConverters
 
 class JodaTimeGrailsPlugin {
 
-	def version = '1.4.1'
+	def version = '1.4.2'
 	def grailsVersion = '1.3 > *'
 	def dependsOn = [converters: '1.3 > *']
 
